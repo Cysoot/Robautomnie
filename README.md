@@ -23,8 +23,12 @@ Clone Joys.py
 
 ## Importation
 from Joys.py import Joystick
+
 joy=joystick()
+
 while 1:
+
     if joystick.press()=="A"
+        
         print("A is pressed")
 
