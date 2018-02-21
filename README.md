@@ -1,4 +1,8 @@
 # Xbox-one controller for linux and python
+## Requirement
+Python 2.4.7
+evdev
+
 ## Installation:
 ### step1:Getting xpad
 $sudo git clone https://github.com/paroj/xpad.git /usr/src/xpad-0.4
