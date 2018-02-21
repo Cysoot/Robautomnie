@@ -21,7 +21,7 @@ $sudo modprobe  xpad
 ### Step2: Getting Joys.py
 Clone Joys.py
 
-## Importation
+## Importation:
     from Joys.py import joystick
 
     joy=joystick()
@@ -31,4 +31,5 @@ Clone Joys.py
         if joystick.press()=="A"
         
             print("A is pressed")
-
+## Problem,suggestion ?:
+You can report problems and make suggestions here https://github.com/Cysoot/Robautomnie/issues
