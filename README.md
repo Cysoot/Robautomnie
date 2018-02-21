@@ -3,6 +3,8 @@
 ## Joys.py Description:
 Joys.py is a programm that recognize input from the xbox-controller
 
+__attention:for the moment joysticks and triggers are not working
+
 ## Requirement
 Python 2.4.7/evdev
 
