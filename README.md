@@ -22,7 +22,7 @@ $sudo modprobe  xpad
 Clone Joys.py
 
 ## Importation
-    from Joys.py import Joystick
+    from Joys.py import joystick
 
     joy=joystick()
     
