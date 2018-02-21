@@ -12,7 +12,6 @@ print("----Info----")
 print("from Joys import joystick")
 print("joy=joystick")
 print("         .get gives you the button data")
-print("         .")
 ####InputVariables
 ##Boutons
 aBtn=304
@@ -41,9 +40,7 @@ class joystick:
     def press(self):
         #loop and filter by event code and print the mapped label
         for event in gamepad.read_loop():
-            
-            if event.type == ecodes.EV_KEY:
-                
+            if event.type == ecodes.EV_KEY:     
                 if event.value == 1:
                     if event.code == yBtn:
                         return "Y"
@@ -67,12 +64,5 @@ class joystick:
                         return "RB"
                     elif event.code==xbox:
                         return "Home"
-            
-               
-
-
-
-
-
     #elif event.type == ecodes.EV_ABS:
     #    print(event)
