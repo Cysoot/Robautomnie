@@ -31,5 +31,5 @@ Clone Joys.py
         if joystick.press()=="A"
         
             print("A is pressed")
-## Problem,suggestion ?:
-You can report problems and make suggestions here https://github.com/Cysoot/Robautomnie/issues
+## Issues ?:
+You can report issues here https://github.com/Cysoot/Robautomnie/issues
