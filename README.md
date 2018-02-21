@@ -22,13 +22,13 @@ $sudo modprobe  xpad
 Clone Joys.py
 
 ## Importation
-from Joys.py import Joystick
+    from Joys.py import Joystick
 
-joy=joystick()
+    joy=joystick()
+    
+    while 1:
 
-while 1:
-
-    if joystick.press()=="A"
+        if joystick.press()=="A"
         
-        print("A is pressed")
+            print("A is pressed")
 
